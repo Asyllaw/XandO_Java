@@ -5,7 +5,7 @@ import java.awt.event.*;
 /**
  * Enhanced Tic-Tac-Toe game with intro screen, player aliases, and exit option.
  */
-public class TicTacToe extends JFrame implements ActionListener {
+public class TicTacToeupdated extends JFrame implements ActionListener {
     private JButton[][] buttons = new JButton[3][3];
     private String playerX, playerO;
     private char currentPlayer = 'X';
