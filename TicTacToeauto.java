@@ -7,7 +7,7 @@ import java.util.Random;
 /**
  * Enhanced Tic-Tac-Toe with player alias input, automated opponent, and random move logic.
  */
-public class TicTacToe extends JFrame implements ActionListener {
+public class TicTacToeauto extends JFrame implements ActionListener {
     private JButton[][] buttons = new JButton[3][3];
     private String playerX, playerO;
     private char currentPlayer = 'X';
